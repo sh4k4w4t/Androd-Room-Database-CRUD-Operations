@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/insertAuser"
+        android:layout_width="match_parent"
+        android:onClick="insertAuser"
+        android:layout_height="wrap_content"
+        android:text="Insert A User" />
+
+    <Button
+        android:id="@+id/updateAuser"
+        android:layout_width="match_parent"
+        android:onClick="updateAuser"
+        android:layout_height="wrap_content"
+        android:text="Update A User" />
+
+    <Button
+        android:id="@+id/deleteAuser"
+        android:layout_width="match_parent"
+        android:onClick="deleteAuser"
+        android:layout_height="wrap_content"
+        android:text="Delete A User" />
+
+    <Button
+        android:id="@+id/readAUser"
+        android:onClick="readAuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read A User" />
+
+    <Button
+        android:id="@+id/readAllUser"
+        android:onClick="readAlluser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read All User" />
+
+    <Button
+        android:id="@+id/addMultipleUsers"
+        android:onClick="addMultipleUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Multiple User" />
+
+    <Button
+        android:id="@+id/deleteAllUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deleteAlluser"
+        android:text="Delete All User" />
+
+    <Button
+        android:id="@+id/readOnlyVerifiedUser"
+        android:layout_width="match_parent"
+        android:onClick="readOnlyVerifieduser"
+        android:layout_height="wrap_content"
+        android:text="Read Only verified user" />
+</LinearLayout>
